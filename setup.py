@@ -9,7 +9,7 @@ from setuptools import find_packages, setup
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-with open("requirements.txt", "r") as fh:
+with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = fh.readlines()
     requirements = [i.strip() for i in requirements]
 
